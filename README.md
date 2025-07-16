@@ -5,7 +5,7 @@ This Angular project renders a dynamic video front page based on ERR's Jupiter p
 ---
 
 ## Project Structure - keypoints
-<pre> ```text
+<pre> 
 src/
 │
 ├── app/
@@ -27,7 +27,7 @@ src/
 │ │ │ └── video-section.component.css # Styles for arrows and layout
 ├── assets/
 │ │ ├── arrow.png # Picture of arrow for buttons in video section
-``` </pre>
+ </pre>
 ---
 
 ## Features
