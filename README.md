@@ -73,7 +73,37 @@ Designed to replicate the interactive structure of [https://jupiter.err.ee](http
 
 # Development
 
-Option 1. Navigate to downloaded project repository in Command Prompt (e.g. cd Jupiter). Run `ng serve --open` to build the project. Then open http://localhost:4200/ in your browser.
+ ## Prerequisites (for both options)
 
-Option 2. Open downloaded project repository in Visual Studio Code or another coding environment. Open terminal and run `ng serve --open`. Browser should open automatically. Otherwise open http://localhost:4200/ in your browser.
+First, **clone the project repository** to your local machine using Git.  
+Open Command Prompt and run `git clone https://github.com/milandrovna/Jupiter`.
+If you don’t have Git installed, download it here:  
+https://git-scm.com/downloads
+
+Then navigate to the project folder:
+
+```bash
+cd path\to\your\project\Jupiter
+```
+
+Before running the project, make sure you have the following installed:
+
+### Node.js (LTS version recommended).
+
+In project folder run: 
+```bash 
+npm install
+```
+
+### Angular CLI
+
+```bash 
+npm install -g @angular/cli
+```
+
+## Running the project
+
+Option 1. Navigate to downloaded project repository in Command Prompt. Run `ng serve` to build the project. Then open http://localhost:4200/ in your browser.
+
+Option 2. Open downloaded project repository in Visual Studio Code or another coding environment. Open the terminal and run `ng serve --open`. Browser should open automatically. Otherwise open http://localhost:4200/ in your browser.
 
