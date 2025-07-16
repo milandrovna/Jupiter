@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #256180;
+background: radial-gradient(circle,rgba(37, 97, 128, 1) 0%, rgba(29, 99, 122, 1) 5%, rgba(16, 44, 54, 1) 100%);}
+
+p, h2, h3{
+  font-family: 'Inter', 'Roboto', 'Helvetica Neue', 'Segoe UI', 'Arial', sans-serif;
+  color: white; 
+}
+
+/* Scrollbar*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #16394b; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

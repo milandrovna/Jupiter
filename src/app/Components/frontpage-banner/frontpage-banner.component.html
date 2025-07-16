@@ -1,0 +1,12 @@
+<!-- Banner component -->
+<div class="banner">
+    <img [src]="video.imageUrl" [alt]="video.heading" class="bannerImg"/>
+    
+    <div class="overlay"></div>
+
+    <div class="text">
+        <h3>{{video.heading}}</h3>
+        <p [innerHTML]="video.description"></p>
+    </div>
+
+</div>

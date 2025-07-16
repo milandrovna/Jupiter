@@ -1,0 +1,79 @@
+
+.subheading-section {
+  position: relative;
+}
+
+.scroll-row {
+    display: flex;
+    gap: 0.7rem;
+    position: relative;
+    overflow-x:auto;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+    scroll-behavior: smooth;
+    margin: 0 1.5rem; 
+}
+
+/* Header of the section */
+.header{
+    font-size: 2rem;
+    margin: 1.5rem; 
+}
+
+.scroll-row::-webkit-scrollbar {
+  display: none; 
+}
+
+/* Picture of the show/video/film */
+.video{
+    border-radius: 5px;
+    object-fit: cover; 
+    max-width: 290px;
+    max-height: 450px;
+    min-width: 90px;
+    min-height: 45px;
+}
+
+/* Arrows to scroll */ 
+.left-button,
+.right-button{
+    border: none;
+    background: none;
+    width:45px;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    z-index: 3;
+    background-color:rgb(24, 62, 81);
+    border-top-right-radius: 400px; 
+    border-bottom-right-radius: 400px;
+    cursor: pointer;
+}
+
+.left-button{
+    left:0;
+}
+
+.right-button{
+   right: 0;
+   top: 50%; 
+   transform: translateY(-50%) rotate(180deg);
+}
+
+.left-button img,
+.right-button img{
+    opacity: 0.4;
+}
+
+.left-button:hover,
+.right-button:hover{
+    opacity: 0.6;
+}
+
+.left-button:hover img,
+.right-button:hover img{
+    opacity:1;
+}
