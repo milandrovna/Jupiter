@@ -89,8 +89,10 @@ cd path\to\your\project\Jupiter
 Before running the project, make sure you have the following installed:
 
 ### Node.js (LTS version recommended).
-
-In project folder run: 
+Go to: https://nodejs.org/
+	•	Download and install the LTS (Long-Term Support) version.
+ 
+Then in the terminal in the project folder run: 
 ```bash 
 npm install
 ```
