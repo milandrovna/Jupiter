@@ -88,11 +88,18 @@ cd path\to\your\project\Jupiter
 
 Before running the project, make sure you have the following installed:
 
-### Node.js (LTS version recommended).
-Go to: https://nodejs.org/
-	•	Download and install the LTS (Long-Term Support) version.
- 
-Then in the terminal in the project folder run: 
+### Node.js
+Go to: https://nodejs.org/. Download and install Node.js. Make sure to check the box "ADD TO PATH". When installing finishes check in terminal whether installing was successful by running
+
+ ```bash 
+npm -v
+```
+```bash 
+node -v
+```
+Versions of npm and node should appear.
+
+Then in the project folder run: 
 ```bash 
 npm install
 ```
@@ -107,5 +114,5 @@ npm install -g @angular/cli
 
 Option 1. Navigate to downloaded project repository in Command Prompt. Run `ng serve` to build the project. Then open http://localhost:4200/ in your browser.
 
-Option 2. Open downloaded project repository in Visual Studio Code or another coding environment. Open the terminal and run `ng serve --open`. Browser should open automatically. Otherwise open http://localhost:4200/ in your browser.
+Option 2. Open downloaded project repository in Visual Studio Code or another coding environment. Open the terminal and run `ng serve --open`. Default browser should open automatically. Otherwise open http://localhost:4200/ in your browser.
 
